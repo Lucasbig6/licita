@@ -1,0 +1,4 @@
+/.agent
+/.venv
+/.vscode
+/data/pncp.db
