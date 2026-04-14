@@ -56,6 +56,6 @@ df = pd.json_normalize(linhas)
 
 #%%
 ## Subir os dados para o Banco SQlite
-conn = sqlite3.connect("data/pncp.db")
+conn = sqlite3.connect("pncp.db")
 
-df.to_sql("pncp_itens", conn, if_exists="replace", index=False)
+df.to_sql("pncp_itens", conn, if_exists="replace", index=False) 
